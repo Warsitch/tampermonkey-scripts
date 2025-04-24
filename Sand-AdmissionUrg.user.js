@@ -116,7 +116,7 @@
                 top: 150px;
                 left: 255px;
                 width: 380px;
-                height: 245px;
+                height: 215px;
                 padding: 1em;
                 background: powderblue;
                 border: 3px double black;
