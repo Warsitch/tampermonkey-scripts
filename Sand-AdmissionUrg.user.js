@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-AdmissionUrg
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.3
+// @version      0.3.1
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
@@ -65,12 +65,10 @@
             $("body").append(`
 <div id="gmPopupContainer">
   <form>
-    <button id="gmCloseSMUR" type="button">INSCRIPTION ---- SMUR</button>
     <button id="gmCloseNORMALE" type="button">INSCRIPTION ---- NORMALE</button>
-    <button id="gmCloseAT" type="button">INSCRIPTION ---- AT</button>
+    <button id="gmCloseSMUR" type="button">INSCRIPTION ---- SMUR</button>
     <button id="gmCloseCPAS" type="button">INSCRIPTION ---- CPAS</button>
     <button id="gmCloseMEDIP" type="button">INSCRIPTION ---- MEDIPRIMA</button>
-    <button id="gmCloseCOVID" type="button">INSCRIPTION ---- COVID</button>
     <button id="gmClose" type="button">FERMER</button>
   </form>
 </div>`);
@@ -89,24 +87,15 @@
                     date.value = '99' + date.value.substr(2);
                     if (!mut) document.querySelector("#f\\:SMOTE").value = '59';
                 },
-                gmCloseAT: () => {
-                    document.querySelector("#f\\:SDEPT").value = '8300';
-                    document.querySelector("#f\\:SMOTE").value = '21';
-                },
                 gmCloseCPAS: () => {
                     document.querySelector("#f\\:SDEPT").value = '8300';
                     document.querySelector("#f\\:SADSU").value = 'U';
-                    if (!mut) document.querySelector("#f\\:SMOTE").value = '59';
+                    if (!mut) document.querySelector("#f\\:SMOTE").value = '58';
                 },
                 gmCloseMEDIP: () => {
                     document.querySelector("#f\\:SDEPT").value = '8300';
                     document.querySelector("#f\\:SMOTE").value = '45';
                     document.querySelector("#f\\:SADSU").value = 'U';
-                },
-                gmCloseCOVID: () => {
-                    document.querySelector("#f\\:SDEPT").value = '8300';
-                    document.querySelector("#f\\:Certificates").value = 'COVID19';
-                    if (!mut) document.querySelector("#f\\:SMOTE").value = '59';
                 },
                 gmClose: () => {}
             };
