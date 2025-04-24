@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-InfoUrgences
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.3.4
+// @version      0.3.5
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
@@ -274,7 +274,6 @@ cursor:                 pointer;                        \
 margin:                 1em 1em 0;                      \
 border:                 1px outset buttonface;          \
 }                                                           \
-}   \
 #numEnvoi {                                         \
 position:               fixed;                          \
 top:                    295px;                            \
