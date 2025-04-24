@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-InfoPatient
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.2
+// @version      0.3
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
