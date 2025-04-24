@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 /*
-Ce fichier modifie le fonctionement de la page WISH Info urgences.
+Ce fchier modifie le fonctionement de la page WISH Info urgences.
 
 De nombreux éléments non utile à l'inscription des patients des urgences ont été retirés.
 Quelques champs sont automatiquement remplis.
