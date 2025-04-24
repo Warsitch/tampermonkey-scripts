@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-AdmissionUrg
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.3.1.1
+// @version      0.3.2
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
