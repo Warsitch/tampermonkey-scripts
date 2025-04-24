@@ -12,7 +12,7 @@
 
 
 /*
-Ce fichier sert à modifier l'expérience visuelle de WIsh en modifiant 4 couleurs de la page web.
+Ce fichier sert à l'expérience visuelle de WIsh en modifiant 4 couleurs de la page web.
 Il permet également de faciliter la navigation dans les différents menus en ôtant une partie des liens proposer de base.
 */
 
