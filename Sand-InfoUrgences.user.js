@@ -6,9 +6,9 @@
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
 // @grant        GM_addStyle
-// ==/UserScript==
 // @updateURL    https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-InfoUrgences.user.js
 // @downloadURL  https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-InfoUrgences.user.js
+// ==/UserScript==
 
 /*
 Ce fichier modifie le fonctionement de la page WISH Info urgences.
