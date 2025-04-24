@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-InfoUrgences
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.3.1
+// @version      0.3.4
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
@@ -106,12 +106,10 @@ Le USER valide manuellement les données et ce fichier vérifie si tout est bien
 </div>                                                                    \
 <div id="champSMUR">\
 <form>\
-<input id="numFiche" name="numFiche" type="text" value="" maxlength="6" size="6" class="inputtext-uc">\
 <input id="numEnvoi" name="numEnvoi" type="text" value="" maxlength="3" size="6" class="inputtext-uc">\
 <input id="infi" name="infi" type="text" value="" maxlength="25" size="6" class="inputtext-uc">\
 <input id="med" name="med" type="text" value="" maxlength="25" size="6" class="inputtext-uc">\
 <input id="diag" name="diag" type="text" value="" maxlength="25" size="6" class="inputtext-uc">\
-<span id="txtFiche" name="txtFiche" class="bold">Numéro de Fiche</span>\
 <span id="txtEnvoi" name="txtEnvoi" class="bold">Numéro Envoi</span>\
 <span id="txtInfi" name="txtInfi" class="bold">Infirmier SMUR</span>\
 <span id="txtMed" name="txtMed" class="bold">Medecin SMUR</span>\
@@ -120,7 +118,6 @@ Le USER valide manuellement les données et ce fichier vérifie si tout est bien
 ' );
         $("#champSMUR").hide(); //Cache l'ajout des éléments SMUR si on est pas dans le cas d'un SMUR
         var vraiSMUR;
-        var fiche = document.querySelector("#numFiche");
         var envoi = document.querySelector("#numEnvoi");
         var infi = document.querySelector("#infi");
         var med = document.querySelector("#med");
@@ -159,15 +156,15 @@ Le USER valide manuellement les données et ce fichier vérifie si tout est bien
             }
             else if (origine.value == 'D'){
                 if(vraiSMUR){
-                    if((iDambu.value == '') || (iDsmur.value == '')|| (fiche.value == '')|| (envoi.value == '')|| (med.value == '')|| (infi.value == '')){
-                        alert("Si Origine admission est D, alors Identification ambulance, Id SMUR, Numéro de fiche, Numéro d'envoi, Médecin SMUR, Infirmier SMUR ne peut être vide !");
+                    if((iDambu.value == '') || (iDsmur.value == '')|| (envoi.value == '')|| (med.value == '')|| (infi.value == '')){
+                        alert("Si Origine admission est D, alors Identification ambulance, Id SMUR, Numéro d'envoi, Médecin SMUR, Infirmier SMUR ne peut être vide !");
                         $("#f\\:saveButton").show ();
                         $("#f\\:SREDE").show(); //document.querySelector("#f\\:SREDE").removeAttr('disabled');
                     }
                     else {
                         $("#f\\:saveButton").show ();
                         $("#f\\:SREDE").show(); //document.querySelector("#f\\:SREDE").removeAttr('disabled');
-                        description = fiche.value + "-" + envoi.value + "-" + med.value + "-" + infi.value + "-" + diag.value;
+                        description = envoi.value + "-" + med.value + "-" + infi.value + "-" + diag.value;
                         $("#f\\:SREDE").val(description);
                         //motif.value = 'T';
                        // $(document).ready(function(){
@@ -277,19 +274,6 @@ cursor:                 pointer;                        \
 margin:                 1em 1em 0;                      \
 border:                 1px outset buttonface;          \
 }                                                           \
-#numFiche {                                         \
-position:               fixed;                          \
-top:                    270px;                            \
-left:                   174px;                          \
-width:                  100px;                          \
-height:                 20px;                          \
-}                                                           \
-#txtFiche {                                         \
-position:               fixed;                          \
-top:                    270px;                            \
-left:                   11px;                          \
-width:                  174px;                          \
-height:                 20px;                          \
 }   \
 #numEnvoi {                                         \
 position:               fixed;                          \
