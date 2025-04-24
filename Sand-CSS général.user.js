@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-CSS général
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.2
+// @version      0.2.1
 // @description  Appliquer une feuille de style personnalisée sur les pages Wish
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
