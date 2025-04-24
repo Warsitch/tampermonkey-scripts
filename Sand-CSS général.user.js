@@ -1,7 +1,7 @@
-// ==UserScript==
+ // ==UserScript==
 // @name         Sand-CSS général
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.2.2
+// @version      0.2.3
 // @description  Appliquer une feuille de style personnalisée sur les pages Wish
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
@@ -12,7 +12,7 @@
 
 
 /*
-Ce fichier expérience visuelle de WIsh en modifiant 4 couleurs de la page web.
+Ce fichier sert à modifier l' expérience visuelle de WIsh en modifiant 4 couleurs de la page web.
 Il permet également de faciliter la navigation dans les différents menus en ôtant une partie des liens proposer de base.
 */
 
