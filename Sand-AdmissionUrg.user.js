@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-AdmissionUrg
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.3.3
+// @version      0.3.4
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
@@ -29,6 +29,7 @@
                 '228-1', '228-2', '228-A',
                 '235-1', '235-2', '235-A',
                 '306', '306-1', '306-2', '306-A',
+                '311', '311-1', '311-2', '311-A',
                 '319-1', '319-2', '319-A',
                 '323-1', '323-2', '323-A',
                 '403-1', '403-2', '403-A',
