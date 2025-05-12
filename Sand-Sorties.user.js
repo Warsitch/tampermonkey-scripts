@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Sand-Sorties
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
 // @grant        GM_addStyle
-// @updateURL    https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/sand-Sorties.user.js
-// @downloadURL  https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/sand-Sorties.user.js
+// @updateURL    https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-Sorties.user.js
+// @downloadURL  https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-Sorties.user.js
 // ==/UserScript==
 
 /*
