@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Sand-demande assurabilité
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.3
+// @version      1.0
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
 // @grant        GM_addStyle
-// @updateURL    https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-demande assurabilité.user.js
-// @downloadURL  https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-demande assurabilité.user.js
+// @updateURL    https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/sand-demande assurabilité.user.js
+// @downloadURL  https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/sand-demande assurabilité.user.js
 // ==/UserScript==
 
 /*
