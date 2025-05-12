@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-Sorties
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      1.0
+// @version      1.0.0
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
@@ -222,7 +222,7 @@ GM_addStyle ( "                                                 \
         //  CODE Ci-dessous pour modifer la taille du bouton "ENREGISTRER"
         var saveticker = document.querySelector("#f\\:saveButton")
         saveticker.style.position = 'fixed';
-        saveticker.style.top = '480px';
+        saveticker.style.top = '479px';
         saveticker.style.left = '10px';
         saveticker.style.height = '50px';
         saveticker.style.width = '1000px';
