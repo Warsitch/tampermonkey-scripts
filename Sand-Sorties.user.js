@@ -6,8 +6,8 @@
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
 // @grant        GM_addStyle
-// @updateURL    https://www.tampermonkey.net/script_installation.php#url=https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/Sand-Sorties.user.js
-// @downloadURL  https://www.tampermonkey.net/script_installation.php#url=https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/Sand-Sorties.user.js
+// @updateURL    https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-Sorties.user.js
+// @downloadURL  https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-Sorties.user.js
 // ==/UserScript==
 
 /*
