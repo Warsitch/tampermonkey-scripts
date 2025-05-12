@@ -1,13 +1,13 @@
- // ==UserScript==
+// ==UserScript==
 // @name         Sand-CSS général
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      0.3.2
+// @version      1.0
 // @description  Appliquer une feuille de style personnalisée sur les pages Wish
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
 // @grant        GM_addStyle
-// @updateURL    https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-CSS général.user.js
-// @downloadURL  https://raw.githubusercontent.com/Warsitch/tampermonkey-scripts/main/sand-CSS général.user.js
+// @updateURL    https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/sand-CSS général.user.js
+// @downloadURL  https://github.com/Warsitch/tampermonkey-scripts/raw/refs/heads/main/sand-CSS général.user.js
 // ==/UserScript==
 
 
