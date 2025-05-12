@@ -33,7 +33,6 @@ Le USER valide manuellement les données et ce fichier vérifie si tout est bien
     if (distinct.value != null) {
 
         document.querySelector("#f\\:SROAC").remove(); // rôle dans l'accident
-      //  document.querySelector("#f\\:SPITsearch").remove(); // image Id SMUR/PIT 2
        // document.querySelector("#f\\:SFPIT").remove(); // N° fiche 1
         document.querySelector("#f\\:SAARD").remove(); //Origine de l'urgence
         document.querySelector("#f\\:SSUIV").remove(); //Suivi pour externes
