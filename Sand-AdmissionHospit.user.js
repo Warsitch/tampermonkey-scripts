@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sand-AdmissionHospit
 // @namespace    https://www.chu-brugmann.be/fr/
-// @version      1.0
+// @version      1.0.0
 // @description  Inscription facilitée dans WISH
 // @author       Ramakers Alexandre
 // @match        http://br400prd.chu-brugmann.be:30700/*
@@ -23,7 +23,7 @@ try{
     var distinct = document.querySelector("#f\\:STARC");
 
     if(distinct.value != null){
-        // Code ci-dessous pour préremplir la page Wish
+        // Code ci-dessous pour préremplr la page Wish
         var docteur = document.querySelector("#f\\:SADOC");
         var docteurH = document.querySelector("#f\\:SHDOC");
         var service = document.querySelector("#f\\:SDEPT");
